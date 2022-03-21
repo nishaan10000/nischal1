@@ -1,0 +1,78 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 80%;
+  border: 20px solid #0183da;
+  font-family: Century Gothic;
+  letter-spacing: 1px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+h2 {
+  color: rgba(241, 10, 10, 0.822);
+  font-size: 2rem;
+  text-align: center;
+  font-family: Lucida Handwriting;
+}
+
+p {
+  color: rgba(255, 251, 27, 0.911);
+  font-weight: 600;
+  border-left: 5px solid #2370a5;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 2px solid #0f23d3; /* blue */
+  /* cursor: pointer; */
+}
+
+/* for one piece */
+.body1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(one_piece1.png);
+}
+
+/* for death note */
+.body2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(death\ note.jpg);
+}
+
+/* for one punch man */
+.body3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(one\ punch\ man.jpg);
+}
+
+/* for naruto */
+.body4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(naruto1.jpg);
+}
+/* for hentai*/
+.body5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(hentai.jpg);
+}
+
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button a:link {
+  text-decoration: none; /* removing the underline*/
+}
